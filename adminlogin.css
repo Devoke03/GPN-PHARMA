@@ -1,0 +1,131 @@
+.pageback 
+{
+    background-color: cadetblue;
+    background: url("123.jpg");
+    background-size: cover;
+}
+.maindiv
+{
+    opacity: 1;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.126);
+    position: absolute;
+    height: 500px;
+    width: 1100px;
+    top: 50%;
+    left: 49%;
+    transform: translate(-50%, -50%);
+    padding-right: 20px;
+    border-radius: 30px;
+    backdrop-filter: blur(10px);
+    box-shadow: rgba(0, 0, 0, 0.126);
+}
+.logo 
+{
+    position: absolute;
+    left: 14%;
+    top: 6%;
+    width: 400px;
+    height: auto;
+}
+
+.input-group 
+{
+    top: 150px;
+    position: absolute;
+    width: 280px;
+    transition: .5s;
+    margin: 0px 10px;
+}
+
+.input-field 
+{
+    width: 100%;
+    padding: 10px 0;
+    margin: 10px auto;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 2px soild #8002da;
+    outline: none;
+    background: transparent;
+}
+
+.submit-btn 
+{
+    width: 85%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background: linear-gradient(to right, #9600FF, #7086f7);
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+    color: white;
+    margin-top: 5px;
+}
+
+.check-box 
+{
+    margin: 30px 10px 30px 10px;
+}
+
+span 
+{
+    color: #777;
+    font-size: 12px;
+    bottom: 147px;
+    position: inherit;
+}
+
+#admin 
+{
+    left: 50px;
+}
+.submit-btn:hover 
+{
+    background-color: #3602ad;
+    animation-duration: 500ms;
+}
+.form-box 
+{
+    position: fixed;
+    height: 490px;
+    width: 400px;
+    left: 728px;
+    top: 0%;
+    background: linear-gradient(to right,#9ad6a9, #6fe25a);
+    padding: 5px;
+    overflow: hidden;
+    border-radius: 30px;
+}
+.log
+{
+    margin-top: 30px;
+    font-weight: 700;
+    font-size: 30px;
+    color: #027916;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.radio-btn
+{
+    margin-left: 10px;
+}
+.checkbox
+{
+    margin: 60px auto;
+}
+.redirect
+{
+    padding: 30px auto;
+    margin: 30px auto;
+    align-items: center;
+    align-content: center;
+}
+a
+{
+    margin-left: 80px;
+    margin-right: 80px;
+    text-decoration: none;
+}

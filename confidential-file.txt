@@ -1,0 +1,6 @@
+<a href="cashierview.php">Inventory</a>
+<?php echo $invoicedata['InvoiceID'];?>
+
+
+
+price fetch karne ki query bhi likhni hai aj
